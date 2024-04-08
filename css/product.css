@@ -1,0 +1,10 @@
+main {
+    margin-top: var(--main-mt);
+}
+
+table {
+    margin: 0 auto;
+}
+table thead tr th {
+    padding: 0 2rem;
+}

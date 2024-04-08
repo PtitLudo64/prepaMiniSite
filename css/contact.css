@@ -1,0 +1,18 @@
+body main {
+    margin-top: var(--main-mt);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* Euivalent à :  */
+    margin: 0 auto;
+}
+
+#btnSend {
+    background-color: var(--clr-primary);
+    margin-top: 16px;
+}

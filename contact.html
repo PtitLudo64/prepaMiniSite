@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <img src="img/LogosBabel.svg" alt="Logo Société Babel Jaune">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="product.html">Produits</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ol>
+    </header>
+    <main>
+        <form action="http://monsite.fr/form.php" method="post">
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Saisissez votre prénom">
+            <label for="nom">Nom: *</label>
+            <input type="text" name="nom" id="nom" placeholder="Saisissez votre Nom" required>
+            <label for="email">Email: *</label>
+            <input type="email" name="mail" id="mail" placeholder="Saisissez votre e-mail" required>
+            <!-- <label for="tel">Téléphone</label>
+            <input type="tel" name="tel" id="tel" placeholder="Saisissez votre N° de Tel"> -->
+            <label for="commentaire">Commentaire: *</label>
+            <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Saisissez votre commentaire" required></textarea>
+            <input type="submit" value="Envoyer" id="btnSend">
+            <p>* Veuillez renseigner ces champ.</p>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

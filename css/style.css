@@ -1,0 +1,21 @@
+body main {
+  margin-top: var(--main-mt);
+}
+
+body main > div {
+  display: flex;
+}
+
+body main section {
+  width: 25%;
+  display: flex;
+  align-items: start;
+  gap: 5px;
+}
+
+body main section img {
+  width: 50%;
+}
+body main section div {
+  width: 50%;
+}
