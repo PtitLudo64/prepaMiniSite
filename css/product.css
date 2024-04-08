@@ -5,6 +5,13 @@ main {
 table {
     margin: 0 auto;
 }
+table thead {
+    padding: 1rem;
+    position: sticky;
+    top: var(--hdr-real-height);
+    background-color: #333;
+}
+
 table thead tr th {
-    padding: 0 2rem;
+    padding: 1rem 4rem 1rem 0;
 }
